@@ -16,7 +16,6 @@ public class UIOperation {
             case "openBrowser":
                 System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
                 webDriver = new ChromeDriver();
-                System.out.println("done open brower ");
                 break;
             case "navigateURL":
                 webDriver.get(data);
