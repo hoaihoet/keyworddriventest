@@ -94,10 +94,10 @@ public class UIOperationLoginGmail {
                 element.sendKeys(Keys.ENTER);
                 break;
             case "verifyInputValid":
-                String abc = webDriver.getCurrentUrl();
-                abc.contains(data);
-                Thread.sleep(3000);
-                System.out.println("Done");
+//                String abc = webDriver.getCurrentUrl();
+//                abc.contains(data);
+//                Thread.sleep(3000);
+//                System.out.println("Done");
                 break;
             case "closeBrowser":
                 webDriver.close();
